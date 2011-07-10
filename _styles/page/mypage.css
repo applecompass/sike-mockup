@@ -74,12 +74,13 @@
         color: #fff;
         font-size: 330%;
         display: inline-block;
-        -moz-border-radius: 6px;
-        -webkit-border-radius: 6px;
-        border-radius: 6px;
         line-height: 1.2em;
         
         padding: 10px 8px 9px;
+        
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
     }
     .ph-one .ph-txt
     {

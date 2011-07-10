@@ -13,40 +13,47 @@
     <link rel="Stylesheet" type="text/css" media="all" href="_styles/base.css" />
     <link rel="Stylesheet" type="text/css" media="all" href="_styles/common.css" />
     <link rel="Stylesheet" type="text/css" media="all" href="_styles/frame.css" />
-    <link rel="Stylesheet" type="text/css" media="all" href="_styles/page/reg.css" />
+    <link rel="Stylesheet" type="text/css" media="all" href="_styles/page/login.css" />
 
 </head>
 <body>
     <div id="wrapper" class="pw align-c">
-        <h1 class="txtindent">啄米</h1>
+        <div id="visual">
+            <h1 class="txtindent">啄米</h1>
+            <div id="core" class="col-l">
+                <p class="yel txt-3xl">Beta</p>
+                <p class="whi txt-4xl mt-3">收集，分类和交流你的日常数据</p>
+            </div>
+        </div>
         <form action="" id="form-login" class="clear">
             <fieldset class="formbox">
                 <legend class="hidden">登录</legend>
                 <div class="">
-                    <p class="col-l">
-                        <label class="txt-6xl bla" for="">电子邮件</label>
-                        <input type="text" id="input-mail" />
+                    <p class="col-l pos-rel">
+                        <label class="txt-3xl gry pos-abs fl-label" for="">电子邮件</label>
+                        <input type="text" id="input-mail" class="txt-3xl gry fl-input outerglow" />
                     </p>
-                    <p class="col-l">
-                        <label class="txt-6xl bla" for="">登录密码</label>
-                        <input type="text" id="input-password" />
+                    <p class="col-l pos-rel ml-8">
+                        <label class="txt-3xl gry pos-abs fl-label" for="">登录密码</label>
+                        <input type="text" id="input-password" class="txt-3xl gry fl-input outerglow" />
                     </p>
-                    <input type="submit" id="btn-login" class="" value="登录" />
+                    <input type="submit" id="btn-login" class="fl-button whi txt-3xl ml-10 col-r" value="登录" />
                 </div>
             </fieldset>
         </form>
-        <div>
-            <h2>啄米每天在进步</h2>
-            <p>高雄有所记载的历史可远溯至荷属时期前的明朝。15世纪以前，打狗屿本为平埔族西拉雅族的分支马卡道族的居住地。15世纪左右，此地的马卡道族为抵御来犯的日本倭寇与中国海盗，以遍植刺竹的方式作为防御工事，并将地名取为“竹林”，汉化译称为“打狗”或“打鼓”。台湾日治时期后，台湾总督府官方觉得“打狗”的名字不雅，将其改名为日文的近似音“高雄”。据目前考古调查，打狗地区有人类活动的纪录可追溯到在约7000年前。而正式明文记载的文献则是出现在1603年，当时明朝将军沈有容，率水师到澎湖、台湾追剿倭寇，随军福建人陈第著东番记，称高雄为“打狗屿”。</p>
+        <div id="dailytopic" class="mt-18">
+            <div class="col-l dt-icon-read"></div>
+            <h2 class="whi txt-l bold">啄米每天在进步</h2>
+            <p class="whi mt-5">高雄有所记载的历史可远溯至荷属时期前的明朝。15世纪以前，打狗屿本为平埔族西拉雅族的分支马卡道族的居住地。15世纪左右，此地的马卡道族为抵御来犯的日本倭寇与中国海盗，以遍植刺竹的方式作为防御工事，并将地名取为“竹林”，汉化译称为“打狗”或“打鼓”。台湾日治时期后，台湾总督府官方觉得“打狗”的名字不雅，将其改名为日文的近似音“高雄”。据目前考古调查，打狗地区有人类活动的纪录可追溯到在约7000年前。而正式明文记载的文献则是出现在1603年，当时明朝将军沈有容，率水师到澎湖、台湾追剿倭寇，随军福建人陈第著东番记，称高雄为“打狗屿”。</p>
         </div>
-        <form action="" id="form-invite" class="clear">
+        <form action="" id="form-invite" class="clear mt-30 txtalign-c">
             <fieldset class="formbox">
                 <legend class="hidden">申请邀请码</legend>
-                <input id="input-invite" type="text" />
-                <input type="submit" value="申请邀请码" id="btn-invite" class="" />
+                <input type="text" id="input-invite" class="txt-3xl gry fl-input outerglow" />
+                <input type="submit" value="申请邀请码" id="btn-invite" class="fl-button whi txt-3xl ml-10" />
             </fieldset>
         </form>
-        <p>copyrights &copy; 2011 啄米科技</p>
+        <p class="whi txtalign-c mt-50">copyrights &copy; 2011 啄米科技</p>
     </div>
 
     <!-- Library Scripts -->
