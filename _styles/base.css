@@ -77,8 +77,6 @@ a.flexwidth             {   cursor: pointer; white-space: nowrap;               
 a.flexwidth:hover       {   text-decoration: none;                                  }
 
 /* - Others */
-.ndr a,
-.ndr a:hover,
 a.ndr,
 a.ndr:hover     {   text-decoration: none;  }
 .hidden         {   display: none;          }
