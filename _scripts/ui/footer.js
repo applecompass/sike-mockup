@@ -25,7 +25,7 @@
             });
             $("#au-prev").click(function() {
                 $("#aboutus .au-links").animate(
-                    { width: 0 },
+                    { width: 1 },
                     {
                         duration: 400
                     }
@@ -58,6 +58,6 @@
 // Document Ready.
 jQuery(function($) {
 
-ZM.UI.Footer.init();
+	ZM.UI.Footer.init();
 
 });
